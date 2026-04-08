@@ -1,0 +1,209 @@
+{
+  "source_base_path": "C:/Users/Chadwick/source/documentation",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      }
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "booseapp/BOOSEapp.AppCanvas.yml",
+      "output": {
+        ".html": {
+          "relative_path": "booseapp/BOOSEapp.AppCanvas.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSEapp.AppCanvas",
+      "Summary": "<p sourcefile=\"booseapp/BOOSEapp.AppCanvas.yml\" sourcestartlinenumber=\"1\">Implements the ICanvas interface with custom drawing functionality.\nManages bitmap and graphics to render shapes and lines.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "booseapp/BOOSEapp.AppCircle.yml",
+      "output": {
+        ".html": {
+          "relative_path": "booseapp/BOOSEapp.AppCircle.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSEapp.AppCircle",
+      "Summary": "<p sourcefile=\"booseapp/BOOSEapp.AppCircle.yml\" sourcestartlinenumber=\"1\">Custom implementation of the Circle command to bypass BOOSE library restrictions.\nActs as a bridge between the parsed user input and AppCanvas methods.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "booseapp/BOOSEapp.AppCommandFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "booseapp/BOOSEapp.AppCommandFactory.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSEapp.AppCommandFactory",
+      "Summary": "<p sourcefile=\"booseapp/BOOSEapp.AppCommandFactory.yml\" sourcestartlinenumber=\"1\">Custom implementation of the CommandFactory to bypass BOOSE library restrictions.\nActs as a central hub to return custom bridge commands instead of library defaults.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "booseapp/BOOSEapp.AppDrawTo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "booseapp/BOOSEapp.AppDrawTo.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSEapp.AppDrawTo",
+      "Summary": "<p sourcefile=\"booseapp/BOOSEapp.AppDrawTo.yml\" sourcestartlinenumber=\"1\">Custom implementation of the DrawTo command to bypass BOOSE library restrictions.\nActs as a bridge between the parsed user input and AppCanvas methods.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "booseapp/BOOSEapp.AppForm.yml",
+      "output": {
+        ".html": {
+          "relative_path": "booseapp/BOOSEapp.AppForm.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSEapp.AppForm",
+      "Summary": "<p sourcefile=\"booseapp/BOOSEapp.AppForm.yml\" sourcestartlinenumber=\"1\">The main user interface for the BOOSE application.\nProvides the entry point for commands and the canvas display area.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "booseapp/BOOSEapp.AppMoveTo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "booseapp/BOOSEapp.AppMoveTo.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSEapp.AppMoveTo",
+      "Summary": "<p sourcefile=\"booseapp/BOOSEapp.AppMoveTo.yml\" sourcestartlinenumber=\"1\">Custom implementation of the MoveTo command to bypass BOOSE library restrictions.\nActs as a bridge between the parsed user input and AppCanvas methods.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "booseapp/BOOSEapp.AppProgram.yml",
+      "output": {
+        ".html": {
+          "relative_path": "booseapp/BOOSEapp.AppProgram.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSEapp.AppProgram",
+      "Summary": "<p sourcefile=\"booseapp/BOOSEapp.AppProgram.yml\" sourcestartlinenumber=\"1\">The entry point for the BOOSEapp application.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "booseapp/BOOSEapp.AppRect.yml",
+      "output": {
+        ".html": {
+          "relative_path": "booseapp/BOOSEapp.AppRect.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSEapp.AppRect",
+      "Summary": "<p sourcefile=\"booseapp/BOOSEapp.AppRect.yml\" sourcestartlinenumber=\"1\">Custom implementation of the Rect command to bypass BOOSE library restrictions.\nActs as a bridge between the parsed user input and AppCanvas methods.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "booseapp/BOOSEapp.AppTri.yml",
+      "output": {
+        ".html": {
+          "relative_path": "booseapp/BOOSEapp.AppTri.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSEapp.AppTri",
+      "Summary": "<p sourcefile=\"booseapp/BOOSEapp.AppTri.yml\" sourcestartlinenumber=\"1\">Custom implementation of the Tri command to bypass BOOSE library restrictions.\nActs as a bridge between the parsed user input and AppCanvas methods.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "booseapp/BOOSEapp.AppWrite.yml",
+      "output": {
+        ".html": {
+          "relative_path": "booseapp/BOOSEapp.AppWrite.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSEapp.AppWrite",
+      "Summary": "<p sourcefile=\"booseapp/BOOSEapp.AppWrite.yml\" sourcestartlinenumber=\"1\">Custom implementation of the Write command to render text on the canvas.\nActs as a bridge between the parsed user text and the AppCanvas methods.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "booseapp/BOOSEapp.yml",
+      "output": {
+        ".html": {
+          "relative_path": "booseapp/BOOSEapp.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSEapp",
+      "Summary": null
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "booseapp/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "booseapp/toc.html"
+        },
+        ".json": {
+          "relative_path": "booseapp/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html"
+        },
+        ".json": {
+          "relative_path": "toc.json"
+        }
+      },
+      "version": ""
+    }
+  ],
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}
